@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    overflow-x: hidden;
+}
+
+header,
+nav {
+    display: block;
+}
+
+header {
+    background-color: #0e0821;
+    position: fixed;
+    width: 100%;
+    font-weight: bolder;
+}
+
+nav {
+    position: relative;
+}
+
+.nav-home-link {
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.nav-home-link:link,
+.nav-home-link:visited,
+.nav-home-link:hover,
+.nav-home-link:active {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0e0821;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-margin {
+    background: #fff;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-container,
+.nav-left-cell,
+.nav-right-cell,
+.logo-banner {
+    display: flex;
+    align-items: center;
+}
+
+grid {
+    flex-flow: row wrap;
+}
+
+.nav-container {
+    padding: 26px;
+    justify-content: center;
+}
+
+.nav-left-cell {
+    flex: 1;
+    color: whitesmoke;
+}
+
+.nav-right-cell {
+    padding-right: 32px;
+}
+
+.nav-home,
+.nav-about {
+    color: whitesmoke;
+    padding-right: 40px;
+}
+
+.logo-banner {
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    background-color: #1f1544;
+}
+
+.logo {
+    height: 100%;
+    max-width: 100%;
+}
+
+.stories-row {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.story-polaroid {
+    width: 33%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.float-left {
+    float: left;
+}
+
+.story-pic {
+    width: 100%;
+    height: 200px;
+}
+
+.story-title {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: large;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.story-link {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.story-link:link,
+.story-link:visited,
+.story-link:hover,
+.story-link:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.story-link:hover {
+    font-weight: bolder;
+}

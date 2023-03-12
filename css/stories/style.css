@@ -1,0 +1,21 @@
+.content {
+    padding-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Lucida Handwriting", cursive;
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Lora", "Georgia", serif;
+}
