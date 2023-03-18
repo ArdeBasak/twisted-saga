@@ -123,9 +123,41 @@ grid {
     float: left;
 }
 
+.story-photo-content {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    perspective: 1000px;
+}
+
 .story-pic {
     width: 100%;
     height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.story-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(-90deg);
+    transition: transform 0.5s ease;
+}
+
+.story-photo-content:hover .story-pic {
+    transform: rotateY(90deg);
+}
+
+.story-photo-content:hover .story-description {
+    transform: rotateY(0deg);
 }
 
 .story-title {
