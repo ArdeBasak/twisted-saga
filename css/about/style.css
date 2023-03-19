@@ -1,0 +1,28 @@
+.about-component{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.about-photo-comp {
+    flex: 1;
+    padding: 7%;
+}
+
+.about-content-comp {
+    flex: 1 1 200px;
+    padding: auto;
+}
+
+.about-photo-comp, .about-content-comp {
+    margin-top: 100px;
+}
+
+.about-pic {
+    padding-left: 20%;
+    padding-right: 20%;
+    max-height: 500px;
+}
+
+.about-content {
+    padding: 15% 10% 6% 0%;
+}
