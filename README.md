@@ -1,5 +1,6 @@
 # twisted-saga
 Collection of short stories and poems
+Genre : Thriller/Psychological
 
 ### Installing and running the code
 
